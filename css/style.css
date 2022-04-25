@@ -14,14 +14,28 @@ div.general-container {
     width: 100%;
 }
 
+/* HEADER */
 header {
     width: 100%;
     height: var(--header-height);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
     /* test */
     background-color: grey;
 }
 
+div.difficulty {
+    display: inline-block;
+}
+
+div.play-btn {
+    display: inline-block;
+}
+
+
+/* MAIN */
 main {
     width: 100%;
     height: calc(100% - var(--header-height));
@@ -37,9 +51,6 @@ div.grid-container {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-
-    /* test */
-    border: 1px solid black;
 }
 
 div.grid-box {
