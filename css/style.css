@@ -43,8 +43,8 @@ div.grid-container {
 }
 
 div.grid-box {
-    width: calc(100% / 8);
-    height: calc(100% / 8);
+    width: calc(100% / 10);
+    height: calc(100% / 10);
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -57,6 +57,7 @@ div.grid-box span {
 
 div.grid-box.clicked {
     background-color: #6495ed;
+    color: white;
 }
 
 div.grid-box.clicked span {
