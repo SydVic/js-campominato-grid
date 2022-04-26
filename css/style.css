@@ -21,9 +21,6 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
-    /* test */
-    background-color: grey;
 }
 
 div.difficulty {
@@ -33,7 +30,6 @@ div.difficulty {
 div.play-btn {
     display: inline-block;
 }
-
 
 /* MAIN */
 main {
@@ -54,12 +50,25 @@ div.grid-container {
 }
 
 div.grid-box {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.easy {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.hard{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.crazy {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 div.grid-box span {
